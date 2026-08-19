@@ -111,13 +111,13 @@ Books                     ₹0.83M
 Souvenir                  ₹0.64M
 
 
-What I found
+## What I found
 
 Clothing, Shoes, and Technology generate about 95% of total revenue.
 
 Clothing is the clear leader with ₹114M in revenue.
 
-Why this matters
+### Why this matters
 
 The business depends heavily on these three categories. If sales or
 stock availability fall in these categories, total revenue could be
@@ -136,13 +136,17 @@ investment.
 
 ### 2. More units sold does not always mean more revenue
 
-Category             Revenue   Quantity
+Category             Revenue           Quantity
 
-Clothing            ₹114.00M    103,558
-Shoes                ₹66.55M     30,217
-Technology           ₹57.86M     15,021
-Cosmetics             ₹6.79M     45,465
-Food & Beverage       ₹0.85M     44,277
+Clothing            ₹114.00M            103,558
+
+Shoes                ₹66.55M            30,217
+
+Technology           ₹57.86M            15,021
+
+Cosmetics             ₹6.79M            45,465
+
+Food & Beverage       ₹0.85M            44,277
 
 What I found
 
@@ -167,9 +171,10 @@ when deciding which products deserve more attention.
 
 ### 3. Female customers generate more revenue
 
-Gender              Revenue   Revenue Share
+Gender              Revenue       Revenue Share
 
-Female     ₹150.21M      59.72%
+Female             ₹150.21M          59.72%
+
 Male               ₹101.30M          40.28%
 
 What I found
