@@ -77,10 +77,12 @@ Dashboard design
 
 ## 📌 Key KPIs
 
-KPI                                     Result
+KPI                            Result
 
 Total Revenue                 ₹251.51M
+
 Total Transactions              99.46K
+
 Average Order Value (AOV)       ₹2.53K
 
 Note: There is no separate Order ID in the dataset, so transaction
@@ -92,14 +94,22 @@ count is based on the available Customer ID records.
 
 Category                 Revenue
 
-Clothing        ₹114.00M
-Shoes            ₹66.55M
-Technology       ₹57.86M
+Clothing                 ₹114.00M
+
+Shoes                    ₹66.55M
+
+Technology               ₹57.86M
+
 Cosmetics                 ₹6.79M
+
 Toys                      ₹3.98M
+
 Food & Beverage           ₹0.85M
+
 Books                     ₹0.83M
+
 Souvenir                  ₹0.64M
+
 
 What I found
 
