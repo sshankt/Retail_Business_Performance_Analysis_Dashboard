@@ -77,13 +77,13 @@ Dashboard design
 
 ## 📌 Key KPIs
 
-KPI                            Result
+KPI                                                     Result
 
-Total Revenue                 ₹251.51M
+Total Revenue                                           ₹251.51M
 
-Total Transactions              99.46K
+Total Transactions                                       99.46K
 
-Average Order Value (AOV)       ₹2.53K
+Average Order Value (AOV)                                ₹2.53K
 
 Note: There is no separate Order ID in the dataset, so transaction
 count is based on the available Customer ID records.
@@ -92,23 +92,23 @@ count is based on the available Customer ID records.
 
 1. Most revenue comes from three categories
 
-Category                 Revenue
+Category                                                Revenue
 
-Clothing                 ₹114.00M
+Clothing                                                ₹114.00M
 
-Shoes                    ₹66.55M
+Shoes                                                   ₹66.55M
 
-Technology               ₹57.86M
+Technology                                              ₹57.86M
+ 
+Cosmetics                                               ₹6.79M
 
-Cosmetics                 ₹6.79M
+Toys                                                    ₹3.98M
 
-Toys                      ₹3.98M
+Food & Beverage                                         ₹0.85M
 
-Food & Beverage           ₹0.85M
+Books                                                   ₹0.83M
 
-Books                     ₹0.83M
-
-Souvenir                  ₹0.64M
+Souvenir                                                ₹0.64M
 
 
 ## What I found
@@ -136,17 +136,17 @@ investment.
 
 ### 2. More units sold does not always mean more revenue
 
-Category             Revenue           Quantity
+Category                                              Revenue                                 Quantity
 
-Clothing            ₹114.00M            103,558
+Clothing                                              ₹114.00M                                  103,558
 
-Shoes                ₹66.55M            30,217
+Shoes                                                 ₹66.55M                                   30,217
 
-Technology           ₹57.86M            15,021
+Technology                                            ₹57.86M                                   15,021
 
-Cosmetics             ₹6.79M            45,465
+Cosmetics                                             ₹6.79M                                    45,465
 
-Food & Beverage       ₹0.85M            44,277
+Food & Beverage                                       ₹0.85M                                    44,277
 
 What I found
 
@@ -171,11 +171,11 @@ when deciding which products deserve more attention.
 
 ### 3. Female customers generate more revenue
 
-Gender              Revenue       Revenue Share
+Gender                          Revenue                          Revenue Share
 
-Female             ₹150.21M          59.72%
+Female                          ₹150.21M                           59.72%
 
-Male               ₹101.30M          40.28%
+Male                            ₹101.30M                           40.28%
 
 What I found
 
@@ -207,20 +207,23 @@ Focus retention and loyalty campaigns on high-value customers.
 
 ### 4. Customers aged 36+ are the biggest revenue group
 
-Age Group          Revenue
+Age Group                                            Revenue
 
-50+        ₹91.31M
-36--50     ₹74.20M
-26--35     ₹47.88M
-18--25     ₹38.12M
+50+                                                  ₹91.31M
 
-What I found
+36--50                                               ₹74.20M
+
+26--35                                               ₹47.88M
+
+18--25                                               ₹38.12M
+
+## What I found
 
 Customers aged 36 and above generate about 66% of total revenue.
 
 The 50+ group is the largest contributor, generating ₹91.31M.
 
-Why this matters
+### Why this matters
 
 Older customer groups are currently more valuable in terms of revenue.
 
@@ -238,22 +241,26 @@ Use different marketing strategies for different age groups.
 
 ### 5. Two shopping malls generate around 40% of revenue
 
-Shopping Mall                Revenue
+Shopping Mall                         Revenue
 
-Mall of Istanbul     ₹50.87M
-Kanyon               ₹50.55M
-Metrocity            ₹37.30M
-Metropol AVM         ₹25.38M
-Istinye Park         ₹24.62M
+Mall of Istanbul                      ₹50.87M
 
-What I found
+Kanyon                                ₹50.55M
+
+Metrocity                             ₹37.30M
+
+Metropol AVM                          ₹25.38M
+
+Istinye Park                          ₹24.62M
+
+## What I found
 
 Mall of Istanbul and Kanyon are the two strongest locations.
 
 Together they generate about ₹101.4M, or around 40% of total
 revenue.
 
-Why this matters
+### Why this matters
 
 A large part of the business revenue comes from these two locations.
 
@@ -267,7 +274,7 @@ Compare their strategies with weaker locations.
 
 Use successful practices where possible.
 
-6. Clothing is the strongest category across major malls
+## 6. Clothing is the strongest category across major malls
 
 The Mall × Category analysis shows that Clothing is the leading
 revenue category across the major shopping malls.
@@ -309,11 +316,13 @@ the right products are available in the right malls.
 
 ### 7. Cash is the most-used revenue-generating payment method
 
-Payment Method          Revenue                Share
+Payment Method                          Revenue                                Share
+ 
+Cash                                    ₹112.83M                               ~45%
 
-Cash                    ₹112.83M                ~45%
-Credit Card             ₹88.08M                 ~35%
-Debit Card              ₹50.60M                 ~20%
+Credit Card                             ₹88.08M                                ~35%
+
+Debit Card                              ₹50.60M                                ~20%
 
 What I found
 
@@ -331,22 +340,33 @@ benefits.
 
 ### 8. Revenue is strongest in January and weakest in November
 
-Month                Revenue
+Month                                          Revenue
 
-January              ₹28.89M
-February             ₹26.63M
-March                ₹21.96M
-April                ₹18.72M
-May                  ₹19.72M
-June                 ₹18.93M
-July                 ₹20.38M
-August               ₹19.28M
-September            ₹18.80M
-October              ₹20.55M
-November             ₹18.21M
-December             ₹19.46M
+January                                        ₹28.89M
 
-What I found
+February                                       ₹26.63M
+
+March                                          ₹21.96M
+
+April                                          ₹18.72M
+
+May                                            ₹19.72M
+
+June                                           ₹18.93M
+
+July                                           ₹20.38M
+
+August                                         ₹19.28M
+
+September                                      ₹18.80M
+
+October                                        ₹20.55M
+
+November                                       ₹18.21M
+
+December                                       ₹19.46M
+
+## What I found
 
 January has the highest revenue at ₹28.89M.
 
@@ -357,7 +377,7 @@ Revenue is about 37% lower in November than in January.
 However, revenue does not continuously decline. There are several
 months where revenue improves, such as May, July, October, and December.
 
-Business action
+## Business action
 
 The business should investigate why revenue is stronger in some months
 and weaker in others.
@@ -376,17 +396,23 @@ Seasonal demand
 
 ### 9. Revenue is fairly similar across days of the week
 
-Day                Revenue
+Day                                    Revenue
 
-Monday             ₹37.30M
-Tuesday            ₹36.30M
-Thursday           ₹35.74M
-Friday             ₹35.73M
-Sunday             ₹35.69M
-Wednesday          ₹35.58M
-Saturday           ₹35.18M
+Monday                                 ₹37.30M
 
-What I found
+Tuesday                                ₹36.30M
+
+Thursday                               ₹35.74M
+
+Friday                                 ₹35.73M
+
+Sunday                                 ₹35.69M
+
+Wednesday                              ₹35.58M
+
+Saturday                               ₹35.18M
+
+## What I found
 
 Monday has the highest revenue and Saturday has the lowest.
 
@@ -397,7 +423,7 @@ Simple business meaning
 Revenue is fairly stable across the week. The business does not appear
 to depend heavily on one particular weekday.
 
-Business action
+### Business action
 
 Instead of focusing only on weekdays, the business should make decisions
 using stronger factors such as:
@@ -406,15 +432,17 @@ Category + Customer + Location + Month
 
 ### 10. 2021 and 2022 revenue were stable
 
-Year       Revenue
+Year                       Revenue
 
-2021      ₹114.56M
-2022      ₹115.44M
-2023      ₹21.51M*
+2021                       ₹114.56M
+
+2022                       ₹115.44M
+
+2023                       ₹21.51M*
 
 *2023 contains only January--March data.
 
-What I found
+## What I found
 
 Revenue increased only slightly from 2021 to 2022:
 
