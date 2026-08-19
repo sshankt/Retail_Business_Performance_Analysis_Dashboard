@@ -2,554 +2,295 @@
 
 ## 📌 Project Overview
 
-This project analyzes retail sales data in Microsoft Excel to
-understand what drives revenue, which customers are most valuable, which
-products perform best, and which shopping malls generate the most
-revenue.
+This project analyzes retail sales data using **Microsoft Excel** to understand revenue drivers, customer segments, product performance, shopping-mall performance, payment behavior, and sales trends.
 
-The main goal was to move beyond charts and answer a simple business
-question:
+The goal was not just to build a dashboard, but to convert raw data into **clear business insights and actionable recommendations**.
 
-What is happening in the business, why does it matter, and what can
-the business do about it?
-
-The analysis was completed using Pivot Tables, Pivot Charts, Slicers,
-Filters, and calculated metrics.
+---
 
 ## 🎯 Business Questions
 
-### This analysis focuses on:
+- Which product categories generate the most revenue?
+- Which customer segments are the most valuable?
+- Which shopping malls perform best?
+- Which payment method generates the most revenue?
+- Which months perform best and worst?
+- Does higher quantity always mean higher revenue?
+- Where is revenue concentrated?
+- What actions can improve business performance?
 
-Which categories generate the most revenue?
-
-Which customer groups generate the most revenue?
-
-Which malls perform best?
-
-Which payment methods are most commonly used?
-
-Which months perform best and worst?
-
-Does high quantity always mean high revenue?
-
-Where is revenue concentrated?
-
-What actions could help improve business performance?
+---
 
 ## 📊 Dataset
 
-The dataset contains retail transaction information.
+The dataset contains retail transaction-level information.
 
-Column             Meaning
+**Key columns:**
 
-Customer_Id      Customer identifier
-Gender           Customer gender
-Age              Customer age
-Category         Product category
-Quantity         Number of units purchased
-Price            Product price
-Revenue          Revenue from the transaction
-Payment_Method   Payment method used
-Invoice_Date     Transaction date
-Month            Transaction month
-Day              Day of the week
-Shopping_Mall    Shopping mall
-Age_Group        Customer age group
-Year             Transaction year
+`Customer_Id` | `Gender` | `Age` | `Category` | `Quantity` | `Price` | `Revenue` | `Payment_Method` | `Invoice_Date` | `Month` | `Day` | `Shopping_Mall` | `Age_Group` | `Year`
 
-## 🛠️ Tools Used
+---
 
-Microsoft Excel
+## 🛠️ Tools & Skills
 
-Pivot Tables
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Slicers & Filters
+- KPI Analysis
+- Customer Segmentation
+- Revenue Analysis
+- Trend Analysis
+- Business Insights
+- Dashboard Development
 
-Pivot Charts
+---
 
-Slicers
+# 📈 Key KPIs
 
-Filters
+| KPI | Value |
+|---|---:|
+| **Total Revenue** | **₹251.51M** |
+| **Customer ID Records** | **99.46K** |
+| **Average Order Value (AOV)** | **₹2.53K** |
 
-KPI calculations
+> **Note:** The dataset does not contain a separate Order ID, so the available Customer ID records were used for the transaction-level analysis and AOV calculation.
 
-Data analysis
+---
 
-Dashboard design
+# 🔎 Key Business Insights
 
-## 📌 Key KPIs
+## 1. Revenue is highly concentrated in three categories
 
-KPI                                                     Result
+**Clothing:** ₹114.00M  
+**Shoes:** ₹66.55M  
+**Technology:** ₹57.86M
 
-Total Revenue                                           ₹251.51M
+Together, these three categories generate approximately **95% of total revenue**.
 
-Total Transactions                                       99.46K
+### Business Meaning
+The business depends heavily on these three categories.
 
-Average Order Value (AOV)                                ₹2.53K
+### Recommendation
+Prioritize inventory availability, demand forecasting, and performance monitoring for these categories.
 
-Note: There is no separate Order ID in the dataset, so transaction
-count is based on the available Customer ID records.
+---
 
-### 🔎 Key Business Insights
+## 2. High quantity does not always mean high revenue
 
-1. Most revenue comes from three categories
+Technology generated **₹57.86M** from only **15K units**, while Food & Beverage sold more than **44K units** but generated only **₹0.85M**.
 
-Category                                                Revenue
+### Business Meaning
+Selling more units does not always mean generating more revenue.
 
-Clothing                                                ₹114.00M
+### Recommendation
+Evaluate products using both **quantity sold and revenue generated**, rather than volume alone.
 
-Shoes                                                   ₹66.55M
+---
 
-Technology                                              ₹57.86M
- 
-Cosmetics                                               ₹6.79M
+## 3. Female customers are the largest revenue segment
 
-Toys                                                    ₹3.98M
+| Gender | Revenue | Share |
+|---|---:|---:|
+| **Female** | **₹150.21M** | **59.72%** |
+| Male | ₹101.30M | 40.28% |
 
-Food & Beverage                                         ₹0.85M
+### Business Meaning
+Female customers contribute almost **60% of total revenue**.
 
-Books                                                   ₹0.83M
+### Recommendation
+Use targeted offers, product recommendations, and loyalty strategies for high-value female customers.
 
-Souvenir                                                ₹0.64M
+---
 
+## 4. Customers aged 36+ generate the majority of revenue
 
-## What I found
+| Age Group | Revenue |
+|---|---:|
+| **50+** | **₹91.31M** |
+| **36–50** | **₹74.20M** |
+| 26–35 | ₹47.88M |
+| 18–25 | ₹38.12M |
 
-Clothing, Shoes, and Technology generate about 95% of total revenue.
+Customers aged **36+ contribute approximately 66% of total revenue**.
 
-Clothing is the clear leader with ₹114M in revenue.
+### Business Meaning
+Older customer segments are currently the strongest revenue contributors.
 
-### Why this matters
+### Recommendation
+Develop targeted promotions and loyalty strategies for the 36+ customer segment.
 
-The business depends heavily on these three categories. If sales or
-stock availability fall in these categories, total revenue could be
-affected significantly.
+---
 
-Business action
+## 5. Two shopping malls generate around 40% of revenue
 
-Keep strong stock availability for these categories.
+| Shopping Mall | Revenue |
+|---|---:|
+| **Mall of Istanbul** | **₹50.87M** |
+| **Kanyon** | **₹50.55M** |
+| Metrocity | ₹37.30M |
+| Metropol AVM | ₹25.38M |
+| Istinye Park | ₹24.62M |
 
-Forecast demand carefully.
+Mall of Istanbul and Kanyon together generate approximately **₹101.4M**, or around **40% of total revenue**.
 
-Monitor their performance regularly.
+### Business Meaning
+Revenue is strongly concentrated in the top-performing locations.
 
-Review whether low-performing categories need improvement or less
-investment.
+### Recommendation
+Maintain strong inventory and customer experience in these locations and identify successful practices that can be applied to lower-performing locations.
 
-### 2. More units sold does not always mean more revenue
-
-Category                                              Revenue                                 Quantity
-
-Clothing                                              ₹114.00M                                  103,558
-
-Shoes                                                 ₹66.55M                                   30,217
-
-Technology                                            ₹57.86M                                   15,021
-
-Cosmetics                                             ₹6.79M                                    45,465
-
-Food & Beverage                                       ₹0.85M                                    44,277
-
-What I found
-
-Technology sold only about 15K units, but generated ₹57.86M.
-
-Food & Beverage sold more than 44K units, but generated only
-₹0.85M.
-
-Simple business meaning
-
-Selling more units does not always mean earning more revenue.
-
-Some categories have much higher value per unit.
-
-Business action
-
-The business should look at both:
-
-Quantity Sold + Revenue Generated
-
-when deciding which products deserve more attention.
-
-### 3. Female customers generate more revenue
-
-Gender                          Revenue                          Revenue Share
-
-Female                          ₹150.21M                           59.72%
-
-Male                            ₹101.30M                           40.28%
-
-What I found
-
-Female customers generate almost 60% of total revenue.
-
-They also generate more revenue than male customers across:
-
-Cash
-
-Credit Card
-
-Debit Card
-
-Why this matters
-
-Female customers are the largest revenue-generating customer segment.
-
-Business action
-
-The business could:
-
-Create targeted offers for female customers.
-
-Study which products they buy most.
-
-Create personalized recommendations.
-
-Focus retention and loyalty campaigns on high-value customers.
-
-### 4. Customers aged 36+ are the biggest revenue group
-
-Age Group                                            Revenue
-
-50+                                                  ₹91.31M
-
-36--50                                               ₹74.20M
-
-26--35                                               ₹47.88M
-
-18--25                                               ₹38.12M
-
-## What I found
-
-Customers aged 36 and above generate about 66% of total revenue.
-
-The 50+ group is the largest contributor, generating ₹91.31M.
-
-### Why this matters
-
-Older customer groups are currently more valuable in terms of revenue.
-
-Business action
-
-The business could:
-
-Create targeted offers for 36+ customers.
-
-Build loyalty programs for high-value customers.
-
-Study what products these customers prefer.
-
-Use different marketing strategies for different age groups.
-
-### 5. Two shopping malls generate around 40% of revenue
-
-Shopping Mall                         Revenue
-
-Mall of Istanbul                      ₹50.87M
-
-Kanyon                                ₹50.55M
-
-Metrocity                             ₹37.30M
-
-Metropol AVM                          ₹25.38M
-
-Istinye Park                          ₹24.62M
-
-## What I found
-
-Mall of Istanbul and Kanyon are the two strongest locations.
-
-Together they generate about ₹101.4M, or around 40% of total
-revenue.
-
-### Why this matters
-
-A large part of the business revenue comes from these two locations.
-
-Business action
-
-Keep sufficient stock in these malls.
-
-Understand what makes these locations successful.
-
-Compare their strategies with weaker locations.
-
-Use successful practices where possible.
+---
 
 ## 6. Clothing is the strongest category across major malls
 
-The Mall × Category analysis shows that Clothing is the leading
-revenue category across the major shopping malls.
+The Mall × Category analysis shows that **Clothing is the leading revenue category across the major shopping malls**.
 
-Examples:
+For example:
 
-Mall of Istanbul
+- Mall of Istanbul → Clothing: **₹22.95M**
+- Kanyon → Clothing: **₹22.65M**
+- Metrocity → Clothing: **₹17.23M**
 
-Clothing: ₹22.95M
+### Recommendation
+Monitor Clothing demand by location and ensure the right products are available at the right malls.
 
-Shoes: ₹13.47M
+---
 
-Technology: ₹11.83M
+## 7. Cash is the largest revenue-generating payment method
 
-Kanyon
+| Payment Method | Revenue |
+|---|---:|
+| **Cash** | **₹112.83M** |
+| Credit Card | ₹88.08M |
+| Debit Card | ₹50.60M |
 
-Clothing: ₹22.65M
+### Business Meaning
+Cash is the largest payment method by revenue.
 
-Shoes: ₹13.38M
+### Recommendation
+Continue supporting cash payments while testing incentives that encourage digital payment adoption.
 
-Technology: ₹11.94M
+---
 
-Metrocity
+## 8. January is the strongest month and November is the weakest
 
-Clothing: ₹17.23M
+**January:** ₹28.89M  
+**November:** ₹18.21M
 
-Shoes: ₹9.52M
+Revenue in November is approximately **37% lower than January**.
 
-Technology: ₹8.61M
+However, the data does **not show a continuous decline** because revenue increases in several months, including May, July, October, and December.
 
-What I found
+### Recommendation
+Investigate the impact of seasonality, promotions, product demand, customer mix, and mall performance on monthly revenue.
 
-Clothing performs strongly across locations, not just in one mall.
+---
 
-Business action
+## 9. Revenue is relatively stable across weekdays
 
-The business should monitor Clothing demand by location and make sure
-the right products are available in the right malls.
+| Day | Revenue |
+|---|---:|
+| **Monday** | **₹37.30M** |
+| Tuesday | ₹36.30M |
+| Thursday | ₹35.74M |
+| Friday | ₹35.73M |
+| Sunday | ₹35.69M |
+| Wednesday | ₹35.58M |
+| Saturday | ₹35.18M |
 
-### 7. Cash is the most-used revenue-generating payment method
+### Business Meaning
+Revenue is fairly evenly distributed across the week.
 
-Payment Method                          Revenue                                Share
- 
-Cash                                    ₹112.83M                               ~45%
+### Recommendation
+Focus more on **category, customer, location, and monthly performance** rather than relying heavily on weekday performance.
 
-Credit Card                             ₹88.08M                                ~35%
+---
 
-Debit Card                              ₹50.60M                                ~20%
+## 10. 2021 and 2022 revenue remained stable
 
-What I found
+| Year | Revenue |
+|---|---:|
+| 2021 | ₹114.56M |
+| 2022 | ₹115.44M |
+| 2023 | ₹21.51M* |
 
-Cash generates the most revenue, followed by Credit Card and Debit Card.
+\*2023 contains only **January–March data**.
 
-Why this matters
+Revenue increased by approximately **0.8% from 2021 to 2022**.
 
-Customers still show a strong preference for cash payments.
+### Important Analyst Note
 
-Business action
+A full-year comparison between 2022 and 2023 would be misleading because 2023 contains only three months of data.
 
-The business should continue supporting cash while testing small
-incentives for digital payments, such as card offers or loyalty
-benefits.
+A better comparison would be:
 
-### 8. Revenue is strongest in January and weakest in November
+**Q1 2022 vs Q1 2023**
 
-Month                                          Revenue
+---
 
-January                                        ₹28.89M
+# 💡 Business Improvement Opportunities
 
-February                                       ₹26.63M
+Based on the analysis, the main opportunities are:
 
-March                                          ₹21.96M
+### 1. Protect core revenue categories
+Clothing, Shoes, and Technology generate approximately 95% of revenue.
 
-April                                          ₹18.72M
-
-May                                            ₹19.72M
-
-June                                           ₹18.93M
-
-July                                           ₹20.38M
-
-August                                         ₹19.28M
-
-September                                      ₹18.80M
-
-October                                        ₹20.55M
-
-November                                       ₹18.21M
-
-December                                       ₹19.46M
-
-## What I found
-
-January has the highest revenue at ₹28.89M.
-
-November has the lowest at ₹18.21M.
-
-Revenue is about 37% lower in November than in January.
-
-However, revenue does not continuously decline. There are several
-months where revenue improves, such as May, July, October, and December.
-
-## Business action
-
-The business should investigate why revenue is stronger in some months
-and weaker in others.
-
-Possible factors include:
-
-Product demand
-
-Promotions
-
-Customer mix
-
-Mall performance
-
-Seasonal demand
-
-### 9. Revenue is fairly similar across days of the week
-
-Day                                    Revenue
-
-Monday                                 ₹37.30M
-
-Tuesday                                ₹36.30M
-
-Thursday                               ₹35.74M
-
-Friday                                 ₹35.73M
-
-Sunday                                 ₹35.69M
-
-Wednesday                              ₹35.58M
-
-Saturday                               ₹35.18M
-
-## What I found
-
-Monday has the highest revenue and Saturday has the lowest.
-
-But the difference is relatively small.
-
-Simple business meaning
-
-Revenue is fairly stable across the week. The business does not appear
-to depend heavily on one particular weekday.
-
-### Business action
-
-Instead of focusing only on weekdays, the business should make decisions
-using stronger factors such as:
-
-Category + Customer + Location + Month
-
-### 10. 2021 and 2022 revenue were stable
-
-Year                       Revenue
-
-2021                       ₹114.56M
-
-2022                       ₹115.44M
-
-2023                       ₹21.51M*
-
-*2023 contains only January--March data.
-
-## What I found
-
-Revenue increased only slightly from 2021 to 2022:
-
-₹114.56M → ₹115.44M
-
-That is approximately a 0.8% increase.
-
-The 2023 figure should not be compared directly with full-year 2021
-or 2022 because only three months of 2023 are available.
-
-Important analyst point
-
-For a fair comparison, compare:
-
-Q1 2022 vs Q1 2023
-
-rather than:
-
-Full-year 2022 vs Q1 2023
-
-This avoids making a wrong conclusion from incomplete data.
-
-
-## 💡 Business Improvement Opportunities
-
-Based on the analysis, I identified these main opportunities:
-
-### 1. Protect the main revenue drivers
-
-Clothing, Shoes, and Technology generate about 95% of revenue.
-
-Action: Prioritize stock, demand forecasting, and performance
-monitoring for these categories.
+**Action:** Prioritize inventory and demand forecasting for these categories.
 
 ### 2. Focus on high-value customers
+Customers aged 36+ generate approximately 66% of revenue.
 
-Customers aged 36+ generate about 66% of revenue.
+**Action:** Build targeted retention and loyalty strategies.
 
-Action: Use targeted loyalty and retention strategies for these
-customers.
-
-### 3. Strengthen top locations
-
+### 3. Strengthen top-performing locations
 Mall of Istanbul and Kanyon generate around 40% of revenue.
 
-Action: Maintain strong stock and customer experience in these
-locations and learn from their performance.
+**Action:** Maintain strong stock availability and study what drives their performance.
 
-### 4. Use customer segmentation
+### 4. Improve customer targeting
+Female customers contribute approximately 60% of revenue.
 
-Female customers generate about 60% of revenue.
+**Action:** Use customer segmentation for targeted marketing.
 
-Action: Create more targeted marketing based on gender, age, and
-product preference.
+### 5. Evaluate revenue, not only volume
+Some categories sell many units but generate low revenue.
 
-### 5. Look beyond quantity
+**Action:** Measure both **quantity and revenue** when evaluating product performance.
 
-Some categories sell many units but generate little revenue, while
-Technology generates high revenue with fewer units.
+### 6. Investigate monthly fluctuations
+January performs significantly better than November.
 
-Action: Evaluate products using both volume and revenue.
+**Action:** Analyze seasonality, promotions, customer mix, and category performance to understand the changes.
 
-### 6. Investigate monthly changes
+---
 
-January performs much better than November, but the monthly trend has
-several ups and downs.
+# 📊 Dashboard
 
-Action: Study promotions, seasonality, customer mix, product demand,
-and mall performance to understand the changes.
+The Excel dashboard provides an interactive view of:
 
-## 📈 Excel Dashboard
+- Total Revenue
+- Average Order Value
+- Revenue by Category
+- Revenue by Gender
+- Monthly Revenue Trend
+- Revenue by Payment Method
+- Revenue by Day of Week
+- Top Shopping Malls by Revenue
 
-The dashboard allows users to view:
+### Interactive Filters
 
-Total Revenue
+- Year
+- Gender
+- Age Group
 
-Average Order Value
+These filters allow users to drill down into different customer segments and time periods.
 
-Total Transactions
+---
 
-Revenue by Category
+# 🧠 Analytical Approach
 
-Revenue by Gender
-
-Monthly Revenue Trend
-
-Revenue by Payment Method
-
-Revenue by Day of Week
-
-Top 5 Shopping Malls by Revenue
-
-Interactive Filters
-
-Year
-
-Gender
-
-Age Group
-
-These filters allow the user to drill down and see how the results
-change for different customer segments and time periods.
-
-🧠 Analysis Approach
-
-I followed a simple business-analysis process:
-
+```text
 Raw Data
    ↓
 Data Preparation
@@ -558,58 +299,8 @@ Pivot Tables
    ↓
 KPIs & Charts
    ↓
-Find Patterns
+Identify Patterns
    ↓
-Explain Why They Matter
+Business Insights
    ↓
 Business Recommendations
-
-The main focus was to convert numbers into clear business insights and
-actions.
-
-## 🎯 Final Takeaways
-
-The analysis shows that:
-
-Clothing is the biggest revenue category.
-
-Clothing, Shoes, and Technology generate about 95% of revenue.
-
-Female customers generate about 60% of revenue.
-
-Customers aged 36+ generate about 66% of revenue.
-
-Mall of Istanbul and Kanyon generate around 40% of revenue
-together.
-
-Technology generates high revenue even with relatively low
-quantity sold.
-
-Cash is the largest payment method by revenue.
-
-January is the strongest month and November is the weakest.
-
-Revenue is fairly stable across weekdays.
-
-2021 and 2022 revenue were almost stable.
-
-2023 contains only Q1 data, so a full-year comparison is not
-appropriate.
-
-### 🚀 Project Outcome
-
-This project demonstrates how Excel can be used for more than
-reporting.
-
-I used Excel to:
-
-Analyze → Find Patterns → Understand Business Impact → Recommend
-Actions
-
-The final dashboard helps management understand:
-
-Revenue → Customers → Products → Locations → Payment Behavior → Trends
-→ Business Improvement
-
-
-Built with Microsoft Excel | Retail Sales & Customer Analytics
