@@ -173,19 +173,46 @@ Continue supporting cash payments while testing incentives that encourage digita
 
 ---
 
-## 8. January is the strongest month and November is the weakest
+## 8. Revenue declined significantly from January to April
 
-**January:** ₹28.89M  
-**November:** ₹18.21M
+Monthly revenue was highest in **January at ₹28.89M** and declined to **₹18.72M in April**.
 
-Revenue in November is approximately **37% lower than January**.
+| Month | Revenue |
+|---|---:|
+| January | ₹28.89M |
+| February | ₹26.63M |
+| March | ₹21.96M |
+| April | ₹18.72M |
+| May | ₹19.72M |
+| June | ₹18.93M |
+| July | ₹20.38M |
+| August | ₹19.28M |
+| September | ₹18.80M |
+| October | ₹20.55M |
+| November | ₹18.21M |
+| December | ₹19.46M |
 
-However, the data does **not show a continuous decline** because revenue increases in several months, including May, July, October, and December.
+### What I found
 
-### Recommendation
-Investigate the impact of seasonality, promotions, product demand, customer mix, and mall performance on monthly revenue.
+Revenue declined from **₹28.89M in January to ₹18.72M in April**, a decrease of approximately **35%**.
 
----
+After April, revenue fluctuated rather than continuing to decline. There were recoveries in **May, July, and October**, showing that the decline was not continuous throughout the year.
+
+### Business Meaning
+
+The strong decline during the first four months suggests that the business should investigate what changed during this period.
+
+Possible factors include:
+
+- Product demand
+- Customer mix
+- Category performance
+- Shopping-mall performance
+- Promotions or seasonal effects
+
+### Business Action
+
+Management should compare **January–April performance** with later months to identify the main reasons behind the decline and determine which factors can be improved to stabilize revenue.
 
 ## 9. Revenue is relatively stable across weekdays
 
