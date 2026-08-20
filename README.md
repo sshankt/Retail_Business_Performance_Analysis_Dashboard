@@ -7,7 +7,9 @@ This project analyzes retail sales data using **Microsoft Excel** to understand 
 The goal was not just to build a dashboard, but to convert raw data into **clear business insights and actionable recommendations**.
 
 ---
+![Clean Data](Clean_data.jpg)
 
+![Raw Data](Raw_data.jpg)
 ## 🎯 Business Questions
 
 - Which product categories generate the most revenue?
